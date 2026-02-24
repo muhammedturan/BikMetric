@@ -129,7 +129,7 @@ public class OllamaService : IOllamaService
     public OllamaService(IHttpClientFactory httpClientFactory, IConfiguration configuration)
     {
         _httpClient = httpClientFactory.CreateClient("Ollama");
-        _ollamaUrl = configuration["Ollama:Url"] ?? "http://localhost:11434";
+        _ollamaUrl = configuration["Ollama:BaseUrl"] ?? "http://localhost:11434";
         _model = configuration["Ollama:Model"] ?? "llama3.1:8b";
     }
 
