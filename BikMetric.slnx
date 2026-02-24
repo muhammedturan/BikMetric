@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BikMetric.Api/BikMetric.Api.csproj" />
+  <Project Path="BikMetric.Application/BikMetric.Application.csproj" />
+  <Project Path="BikMetric.Core/BikMetric.Core.csproj" />
+  <Project Path="BikMetric.Domain/BikMetric.Domain.csproj" />
+  <Project Path="BikMetric.Infrastructure/BikMetric.Infrastructure.csproj" />
+</Solution>
